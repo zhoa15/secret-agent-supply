@@ -1,0 +1,118 @@
+html{
+  font-size: 18px;
+  background-color: white;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  line-height: 1.4em;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.logo{
+  background-color: black;
+  color: white;
+  align-items: center;
+}
+
+.logo img{
+
+}
+
+.banner{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25rem;
+}
+.banner-text{
+  font-weight: bold;
+  position: relative;
+  top: 9rem;
+  width: 20rem;
+  background-color: black;
+  color: white;
+  padding: 2em 3em;
+}
+.banner-text h1{
+  margin: 0.25rem 0;
+  font-size: 2rem;
+}
+.banner-text h4{
+  margin: 2rem 0;
+  font-size: 1rem;
+}
+nav{
+  background-color: firebrick;
+  color: white;
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+}
+
+.items{
+  display: flex;
+  justify-content: space-between;
+  margin: 3em 0 0 0;
+}
+.item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 3px solid black;
+  width: 250px;
+  height: 300px;
+}
+.item img{
+  width: 160px;
+  height: auto;
+  margin: auto;
+}
+.item h6{
+  background-color: black;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  align-items: baseline;
+}
+.locations h6{
+  background-color: black;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  align-items: baseline;
+}
+.hours h6{
+  background-color: black;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  align-items: baseline;
+}
+
+.info .title {
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 1em 2em;
+}
+.business-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 3em 0px 0px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 4rem;
+    padding: 5rem 0px;
+}
